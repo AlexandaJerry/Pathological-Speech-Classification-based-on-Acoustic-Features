@@ -1,0 +1,27 @@
+n_features : 40
+model : CNN_LSTM
+hidden_size : 128
+num_layers : 2
+total_iters : 2000
+device : cuda:0
+model_save_every : 200
+eval_every : 100
+train_ratio : 0.9
+frame_length : 128
+batchsize : 32
+lr_start : 0.001
+beta1 : 0.9
+beta2 : 0.999
+amsgrad : True
+gamma : 0.95
+lr_dacay_every : 100
+num_classes : 2
+root_dir : ./CNN_LSTM
+version : feature_MFCC
+version_dir : ./CNN_LSTM/feature_MFCC
+model_savedir : ./CNN_LSTM/feature_MFCC/checkpoints_feature_MFCC
+hp_filepath : ./CNN_LSTM/feature_MFCC/hparams_feature_MFCC.txt
+log_train_filepath : ./CNN_LSTM/feature_MFCC/logs_train_feature_MFCC.txt
+log_eval_filepath : ./CNN_LSTM/feature_MFCC/logs_eval_feature_MFCC.txt
+------------------------------Hparams saved------------------------------
+****************************************************************************************************

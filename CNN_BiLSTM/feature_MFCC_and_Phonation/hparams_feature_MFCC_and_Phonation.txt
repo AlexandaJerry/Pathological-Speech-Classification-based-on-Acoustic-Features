@@ -1,0 +1,27 @@
+n_features : 50
+model : CNN_BiLSTM
+hidden_size : 128
+num_layers : 2
+total_iters : 2000
+device : cuda:0
+model_save_every : 200
+eval_every : 100
+train_ratio : 0.9
+frame_length : 128
+batchsize : 32
+lr_start : 0.001
+beta1 : 0.9
+beta2 : 0.999
+amsgrad : True
+gamma : 0.95
+lr_dacay_every : 100
+num_classes : 2
+root_dir : ./CNN_BiLSTM
+version : feature_MFCC_and_Phonation
+version_dir : ./CNN_BiLSTM/feature_MFCC_and_Phonation
+model_savedir : ./CNN_BiLSTM/feature_MFCC_and_Phonation/checkpoints_feature_MFCC_and_Phonation
+hp_filepath : ./CNN_BiLSTM/feature_MFCC_and_Phonation/hparams_feature_MFCC_and_Phonation.txt
+log_train_filepath : ./CNN_BiLSTM/feature_MFCC_and_Phonation/logs_train_feature_MFCC_and_Phonation.txt
+log_eval_filepath : ./CNN_BiLSTM/feature_MFCC_and_Phonation/logs_eval_feature_MFCC_and_Phonation.txt
+------------------------------Hparams saved------------------------------
+****************************************************************************************************

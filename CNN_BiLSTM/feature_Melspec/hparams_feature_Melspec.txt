@@ -1,0 +1,27 @@
+n_features : 40
+model : CNN_BiLSTM
+hidden_size : 128
+num_layers : 2
+total_iters : 2000
+device : cuda:0
+model_save_every : 200
+eval_every : 100
+train_ratio : 0.9
+frame_length : 128
+batchsize : 32
+lr_start : 0.001
+beta1 : 0.9
+beta2 : 0.999
+amsgrad : True
+gamma : 0.95
+lr_dacay_every : 100
+num_classes : 2
+root_dir : ./CNN_BiLSTM
+version : feature_Melspec
+version_dir : ./CNN_BiLSTM/feature_Melspec
+model_savedir : ./CNN_BiLSTM/feature_Melspec/checkpoints_feature_Melspec
+hp_filepath : ./CNN_BiLSTM/feature_Melspec/hparams_feature_Melspec.txt
+log_train_filepath : ./CNN_BiLSTM/feature_Melspec/logs_train_feature_Melspec.txt
+log_eval_filepath : ./CNN_BiLSTM/feature_Melspec/logs_eval_feature_Melspec.txt
+------------------------------Hparams saved------------------------------
+****************************************************************************************************
