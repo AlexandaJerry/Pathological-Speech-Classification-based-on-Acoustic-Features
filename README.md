@@ -1,19 +1,10 @@
-# 病变语音识别：基于传统声学参数和发声参数的深度学习
- 
- ├── CNN
- 
+├── CNN
 │   ├── feature_Fbank
-
 │   ├── feature_Fbank_and_Phonation
-
 │   ├── feature_MFCC
-
 │   ├── feature_MFCC_and_Phonation
-
-│   ├── 
-
+│   ├── feature_Melspec
 │   └── feature_Melspec_and_Phonation
-
 ├── CNN_BiLSTM
 │   ├── feature_Fbank
 │   ├── feature_Fbank_and_Phonation
@@ -52,7 +43,4 @@
 ├── utils.py
 ├── 自然语言处理课堂汇报-Mou.ppt
 └── 自然语言处理课程论文-Mou.pdf
-
-
-
 
