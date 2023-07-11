@@ -1,10 +1,10 @@
-├── CNN
-│   ├── feature_Fbank
-│   ├── feature_Fbank_and_Phonation
-│   ├── feature_MFCC
-│   ├── feature_MFCC_and_Phonation
-│   ├── feature_Melspec
-│   └── feature_Melspec_and_Phonation
+├── CNN  
+│   ├── feature_Fbank  
+│   ├── feature_Fbank_and_Phonation  
+│   ├── feature_MFCC  
+│   ├── feature_MFCC_and_Phonation  
+│   ├── feature_Melspec  
+│   └── feature_Melspec_and_Phonation  
 ├── CNN_BiLSTM
 │   ├── feature_Fbank
 │   ├── feature_Fbank_and_Phonation
