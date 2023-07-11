@@ -1,6 +1,6 @@
 # 病变语音识别：基于传统声学参数和发声参数的深度学习
  
-├── CNN
+ ├── CNN
 │   ├── feature_Fbank
 │   ├── feature_Fbank_and_Phonation
 │   ├── feature_MFCC
@@ -46,10 +46,6 @@
 ├── 自然语言处理课堂汇报-Mou.ppt
 └── 自然语言处理课程论文-Mou.pdf
 
-表1 发声参数汇总
-Phonation Parameters
-基频扰动	Jitter	第一第二谐波差值	H1-H2
-振幅扰动	Shimmer	第二第四谐波差值	H2-H4
-谐波噪声比	HNR	第一谐波与第一共振峰近邻谐波差值	H1-A1
-倒谱峰值显度	CPP	第一谐波与第二共振峰近邻谐波差值	H1-A2
-声门激励强度	SOE	第一谐波与第三共振峰近邻谐波差值	H1-A3
+
+
+
